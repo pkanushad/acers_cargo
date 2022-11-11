@@ -28,8 +28,8 @@ SECRET_KEY = 'django-insecure-j-qoehhf*!e9mt-3_c8sl+wy*zd%8l6*)lp-e#^uq=nx&w==$0
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1','testcargo.herokuapp.com']
-# ALLOWED_HOSTS = ['127.0.0.1','acerscargo.herokuapp.com']
+# ALLOWED_HOSTS = ['127.0.0.1','test3cargo.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1','acerscargo.herokuapp.com']
 # ALLOWED_HOSTS = ['0.0.0.0', 'localhost', '127.0.0.1','testdileena.herokuapp.com']
 
 # Application definition
@@ -133,7 +133,7 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR,"static"),
 ]
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+# STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 # #location where django collect all static files
 # STATIC_ROOT = os.path.join(BASE_DIR,'static')
